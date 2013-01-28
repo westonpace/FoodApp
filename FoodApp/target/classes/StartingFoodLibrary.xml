@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<foodApp>
+    <foodLibrary>
+        <food>
+            <name>Hamburger</name>
+            <pluralName>Hamburgers</pluralName>
+        </food>
+        <food>
+            <name>Ground Beef</name>
+        </food>
+        <food>
+            <name>Lettuce</name>
+            <pluralName>Heads of Lettuce</pluralName>
+        </food>
+        <food>
+            <name>Tomato</name>
+            <pluralName>Tomatoes</pluralName>
+        </food>
+        <food>
+            <name>Ketchup</name>
+        </food>
+        <food>
+            <name>Mustard</name>
+        </food>
+        <food>
+            <name>Mayonnaise</name>
+        </food>
+        <food>
+            <name>Hamburger Bun</name>
+            <pluralName>Hamburger Buns</pluralName>
+        </food>
+        <food>
+            <name>Cheddar</name>
+        </food>
+    </foodLibrary>
+    <mealPlan/>
+    <recipeLibrary>
+        <recipe>
+            <name>Hamburgers</name>
+            <prepTime>15</prepTime>
+            <bakingTime>10</bakingTime>
+            <instructions>Form ground beef into patties.  Cook patties.  Place cooked patties and other ingredients onto hamburger buns.</instructions>
+            <ingredient>
+                <amount>1.0</amount>
+                <foodConcept>Ground Beef</foodConcept>
+                <unitType>Pound</unitType>
+            </ingredient>
+            <ingredient>
+                <amount>0.25</amount>
+                <foodConcept>Lettuce</foodConcept>
+                <unitType>Unit</unitType>
+            </ingredient>
+            <ingredient>
+                <amount>1.0</amount>
+                <foodConcept>Tomato</foodConcept>
+                <unitType>Unit</unitType>
+            </ingredient>
+            <ingredient>
+                <amount>1.0</amount>
+                <foodConcept>Ketchup</foodConcept>
+                <unitType>NoUnit</unitType>
+            </ingredient>
+            <ingredient>
+                <amount>1.0</amount>
+                <foodConcept>Mustard</foodConcept>
+                <unitType>NoUnit</unitType>
+            </ingredient>
+            <ingredient>
+                <amount>1.0</amount>
+                <foodConcept>Mayonnaise</foodConcept>
+                <unitType>NoUnit</unitType>
+            </ingredient>
+            <ingredient>
+                <amount>4.0</amount>
+                <foodConcept>Hamburger Bun</foodConcept>
+                <unitType>Unit</unitType>
+            </ingredient>
+            <ingredient>
+                <amount>0.25</amount>
+                <foodConcept>Cheddar</foodConcept>
+                <unitType>Cup</unitType>
+            </ingredient>
+            <yieldedItem>
+                <amount>4.0</amount>
+                <foodConcept>Hamburger</foodConcept>
+                <unitType>Unit</unitType>
+            </yieldedItem>
+        </recipe>
+    </recipeLibrary>
+</foodApp>
